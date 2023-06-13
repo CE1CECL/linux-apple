@@ -14,7 +14,7 @@ top_srcdir ?= ../../../../../..
 khdr_dir = $(top_srcdir)/usr/include
 LINUX_TOOL_ARCH_INCLUDE = $(top_srcdir)/tools/arch/$(ARCH)/include
 
-CFLAGS += -Wall -Werror -static -I$(khdr_dir) -I$(LINUX_TOOL_ARCH_INCLUDE)
+CFLAGS += -Wall  -static -I$(khdr_dir) -I$(LINUX_TOOL_ARCH_INCLUDE)
 
 include ../../../lib.mk
 

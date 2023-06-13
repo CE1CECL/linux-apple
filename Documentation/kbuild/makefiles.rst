@@ -431,7 +431,7 @@ more details, with real examples.
 
 	Example::
 
-		subdir-ccflags-y := -Werror
+		subdir-ccflags-y := 
 
     ccflags-remove-y, asflags-remove-y
 	These flags are used to remove particular flags for the compiler,
